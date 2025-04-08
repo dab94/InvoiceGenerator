@@ -10,6 +10,8 @@ LANGUAGE = 'cs'
 def get_gettext(lang):
     import gettext
     path = os.path.join(PROJECT_ROOT, 'locale')
+    print(f"Looking for translations in: {path}")
+    print(f"Loading language: {lang}")
     t = gettext.translation(
         'messages',
         path,
