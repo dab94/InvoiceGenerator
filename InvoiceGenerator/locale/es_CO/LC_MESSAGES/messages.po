@@ -27,7 +27,7 @@ msgstr ""
 #: api.py:47
 #, python-format
 msgid "Vat in: %s"
-msgstr "IVA en: %s"
+msgstr "Id: %s"
 
 #: api.py:50
 #, python-format
