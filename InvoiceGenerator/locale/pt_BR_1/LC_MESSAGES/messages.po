@@ -15,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-22 15:04+0100\n"
 "PO-Revision-Date: 2015-06-22 20:04+0100\n"
-"Last-Translator: dab94 <dab-94@hotmail.com>\n"
-"Language: es_CO\n"
+"Last-Translator: rbas <rbas@rbas.cz>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,22 +27,22 @@ msgstr ""
 #: api.py:47
 #, python-format
 msgid "Vat in: %s"
-msgstr "IVA en: %s"
+msgstr "DIČ: %s"
 
 #: api.py:50
 #, python-format
 msgid "IR: %s"
-msgstr "IR: %s"
+msgstr "IČ: %s"
 
 #: pdf.py:51
 #, python-format
 msgid "Page %(page_number)d of %(page_count)d"
-msgstr "Página %(page_number)d de %(page_count)d"
+msgstr "Página %(page_number)d z %(page_count)d"
 
 #: pdf.py:129
 #, python-format
 msgid "Invoice num.: %s"
-msgstr "Factura núm.: %s"
+msgstr "Fatura num.: %s"
 
 #: pdf.py:154
 msgid "Customer"
@@ -50,19 +50,19 @@ msgstr "Cliente"
 
 #: pdf.py:174
 msgid "Provider"
-msgstr "Proveedor"
+msgstr "Fornecedor"
 
 #: pdf.py:199
 msgid "Payment information"
-msgstr "Información de pago"
+msgstr "Informação do pagamento"
 
 #: pdf.py:204
 msgid "Account n."
-msgstr "Cuenta n."
+msgstr "Conta n."
 
 #: pdf.py:205
 msgid "Variable symbol"
-msgstr "Símbolo variable"
+msgstr "Símbolo variável"
 
 #: pdf.py:209
 msgid "Specific symbol"
@@ -70,11 +70,11 @@ msgstr "Símbolo específico"
 
 #: pdf.py:221
 msgid "List of items"
-msgstr "Lista de ítems"
+msgstr "Relação de itens"
 
 #: pdf.py:223
 msgid "Description"
-msgstr "Descripción"
+msgstr "Descrição"
 
 #: pdf.py:227 pdf.py:240
 msgid "Units"
@@ -82,23 +82,23 @@ msgstr "Unidades"
 
 #: pdf.py:229 pdf.py:242
 msgid "Price per one"
-msgstr "Precio por unidad"
+msgstr "Preço unitário"
 
 #: pdf.py:231 pdf.py:244
 msgid "Total price"
-msgstr "Precio total"
+msgstr "Preço total"
 
 #: pdf.py:233 pdf.py:335
 msgid "Tax"
-msgstr "Impuesto"
+msgstr "Impostos"
 
 #: pdf.py:235
 msgid "Total price with tax"
-msgstr "Precio total con impuesto"
+msgstr "Preço total com impostos"
 
 #: pdf.py:320
 msgid "Rounding"
-msgstr "Redondeo"
+msgstr "Arredondamento"
 
 #: pdf.py:331
 msgid "Total"
@@ -106,65 +106,65 @@ msgstr "Total"
 
 #: pdf.py:334
 msgid "Breakdown VAT"
-msgstr "Desglose IVA"
+msgstr "Imposto desagregado"
 
 #: pdf.py:335
 msgid "VAT rate"
-msgstr "Tasa de IVA"
+msgstr "Taxa do imposto"
 
 #: pdf.py:335
 msgid "Without VAT"
-msgstr "Sin IVA"
+msgstr "Sem imposto"
 
 #: pdf.py:335
 msgid "With VAT"
-msgstr "Con IVA"
+msgstr "Com imposto"
 
 #: pdf.py:363
 msgid "Total with tax"
-msgstr "Total con impuesto"
+msgstr "Total com imposto"
 
 #: pdf.py:385
 msgid "Creator"
-msgstr "Creador"
+msgstr "Criador"
 
 #: InvoiceGenerator/pdf.py:402
 msgid "Date of exposure taxable invoice"
-msgstr "Fecha de emisión de factura gravable"
+msgstr "Data de tributação"
 
 msgid "Taxable invoice num.: %s"
-msgstr "Factura gravable núm.: %s"
+msgstr "Fatura com impostos num.: %s"
 
 #: pdf.py:404 pdf.py:465
 msgid "Due date"
-msgstr "Fecha de vencimiento"
+msgstr "Data de validade"
 
 #: pdf.py:406
 msgid "Taxable date"
-msgstr "Fecha de gravamen"
+msgstr "Data de taxação"
 
 #: pdf.py:410 pdf.py:468
 msgid "Paytype"
-msgstr "Tipo de pago"
+msgstr "Tipo de pagamento"
 
 #: pdf.py:443
 #, python-format
 msgid "Correcting document: %s"
-msgstr "Documento de corrección: %s"
+msgstr "Documento corrigido: %s"
 
 #: pdf.py:449
 #, python-format
 msgid "Correction document for invoice: %s"
-msgstr "Documento de corrección para la factura: %s"
+msgstr "Documento de correção para a fatura: %s"
 
 #: pdf.py:450
 #, python-format
 msgid "Reason to correction: %s"
-msgstr "Razón de la corrección: %s"
+msgstr "Razão da correção: %s"
 
 #: pdf.py:463
 msgid "Date of exposure"
-msgstr "Fecha de emisión"
+msgstr "Data de exposição"
 
 msgid "Document num.: %s"
-msgstr "Documento núm.: %s"
+msgstr "Documento num.: %s"
