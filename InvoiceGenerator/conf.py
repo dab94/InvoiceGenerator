@@ -18,7 +18,7 @@ def get_gettext(lang):
             'messages',
             path,
             languages=[lang],
-            fallback=True,
+            fallback=False,
         )
         print(f"[DEBUG] Translation for '{lang}' loaded successfully.")
     except FileNotFoundError:
