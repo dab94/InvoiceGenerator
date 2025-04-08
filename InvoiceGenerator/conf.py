@@ -10,14 +10,24 @@ LANGUAGE = 'es_CO'
 def get_gettext(lang):
     import gettext
     path = os.path.join(PROJECT_ROOT, 'locale')
-    print(f"Looking for translations in: {path}")
-    print(f"Loading language: {lang}")
-    t = gettext.translation(
-        'messages',
-        path,
-        languages=[lang],
-        fallback=True,
-    )
+    print(f"[DEBUG] Looking for translations in: {path}")
+    print(f"[DEBUG] Attempting to load language: {lang}")
+    
+    try:
+        t = gettext.translation(
+            'messages',
+            path,
+            languages=[lang],
+            fallback=True,
+        )
+        print(f"[DEBUG] Translation for '{lang}' loaded successfully.")
+    except FileNotFoundError:
+        print(f"[ERROR] Translation file for '{lang}' not found in {path}.")
+        raise
+    except Exception as e:
+        print(f"[ERROR] An unexpected error occurred: {e}")
+        raise
+
     t.install()
 
     if sys.version_info >= (3, 0):
