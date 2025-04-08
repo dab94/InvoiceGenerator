@@ -42,7 +42,7 @@ msgstr "Página %(page_number)d de %(page_count)d"
 #: pdf.py:129
 #, python-format
 msgid "Invoice num.: %s"
-msgstr "Factura núm.: %s"
+msgstr "Factura #: %s"
 
 #: pdf.py:154
 msgid "Customer"
@@ -58,7 +58,7 @@ msgstr "Información de pago"
 
 #: pdf.py:204
 msgid "Account n."
-msgstr "Cuenta n."
+msgstr "Cuenta #"
 
 #: pdf.py:205
 msgid "Variable symbol"
@@ -70,7 +70,7 @@ msgstr "Símbolo específico"
 
 #: pdf.py:221
 msgid "List of items"
-msgstr "Lista de ítems"
+msgstr "Actividades realizadas"
 
 #: pdf.py:223
 msgid "Description"
@@ -167,4 +167,4 @@ msgid "Date of exposure"
 msgstr "Fecha de emisión"
 
 msgid "Document num.: %s"
-msgstr "Documento núm.: %s"
+msgstr "Documento #: %s"
